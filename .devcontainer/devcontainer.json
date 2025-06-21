@@ -7,11 +7,13 @@
 	"features": {
 		"ghcr.io/devcontainers/features/python:1": {},
 		"ghcr.io/devcontainers/features/terraform:1": {}
-		// Uncomment, depending on your cloud provider
-		// These are usually needed for any terraform state file operations:
-		// AWS cli
-		// azure cli
-		// TODO: add features
+		// Uncomment, for the CLI that is relevant to your cloud provider
+		// These are usually needed for any terraform state file operations
+		// It can also be good to add an `provider login` command to your postCreateCommand 
+		// with `&&` to log into the relevant cloud provider
+		// ,"ghcr.io/devcontainers/features/aws-cli:1": {}
+		// ,"ghcr.io/devcontainers/features/azure-cli:1": {}
+		// ,"ghcr.io/dhoeric/features/google-cloud-cli:1": {}
 	},
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
