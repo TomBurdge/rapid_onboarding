@@ -1,0 +1,39 @@
+repos:
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v5.0.0
+  hooks:
+    - id: check-merge-conflict
+    - id: check-added-large-files
+    - id: check-json
+    - id: check-toml
+    - id: check-yaml
+    # - id: no-commit-to-branch
+    - id: pretty-format-json
+      args:
+        - --autofix
+- repo: https://github.com/antonbabenko/pre-commit-terraform
+  rev: "v1.99.4"
+  hooks:
+    - id: terraform_fmt
+    - id: terraform_docs
+    - id: tfupdate
+  # I always recommend the above.
+  # The following depend on context (in comments)
+  # Uncomment that which you wish to use
+
+  ## For terraform repos:
+  ## Take your pick of the following, with inline comments:
+  #   - id: terraform_tflint # Pretty good, quite strict
+  #   - id: terraform_validate # Often needs an argument to re-initialise the provider
+  #     args:
+  ##  If your terraform code is in an `infraststructure` directory, you would need to specify that in the args here too
+  #       - --hook-config=--retry-once-with-cleanup=true # Sometimes even this doesn't work and it's better to delete the terraform dependency caches if something has changed in a remote dependency
+
+  ## For terragrunt repos:
+  #   - id: terragrunt_providers_lock # I recommend - you will need to check your terragrunt lock files into source control for this to have any impact
+  #   - id: terragrunt_validate_inputs # Only use if you are using mock inputs, which you may not wish to.
+
+- repo: https://github.com/codespell-project/codespell.git
+  rev: "v2.4.1"
+  hooks:
+    - id: codespell
