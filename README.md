@@ -7,7 +7,9 @@ Picture this:
 * Your junior engineer finishes their first few weeks a little deflated. They have enjoyed meeting the team, but their confidence is knocked by their local machine setup troubles. You know they will succeed, but you will need to allocate your time to help getting them setup.🕒
 
 # The Solution
-You can use [VSCode dev containers](https://code.visualstudio.com/docs/devcontainers/create-dev-container#_add-configuration-files-to-a-repository) to "use a Docker container as a full-featured development environment." Your next new joiner engineer:
+You can use [VSCode dev containers](https://code.visualstudio.com/docs/devcontainers/create-dev-container#_add-configuration-files-to-a-repository) to "use a Docker container as a full-featured development environment."
+
+Your next new joiner engineer:
 * Installs docker & VSCode on their device.
 * Installs the [VSCode dev container extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).
 * Clones one of the team's repositories.
