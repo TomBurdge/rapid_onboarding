@@ -9,7 +9,7 @@ Picture this:
 # The Solution
 You can use [VSCode dev containers](https://code.visualstudio.com/docs/devcontainers/create-dev-container#_add-configuration-files-to-a-repository) to "use a Docker container as a full-featured development environment."
 
-Your next new joiner engineer:
+Your next new joiner:
 * Installs docker & VSCode on their device.
 * Installs the [VSCode dev container extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).
 * Clones one of the team's repositories.
