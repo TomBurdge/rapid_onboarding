@@ -17,14 +17,16 @@ You can use [VSCode dev containers](https://code.visualstudio.com/docs/devcontai
 # Context
 I  prefer to use [LazyVim](https://www.lazyvim.org/), both professionally and personally. However, this repository solves a real-world problem.
 
-I have worked as lead platform engineer on teams with >10 platform engineer contractors. Large enterprises often work with offshore contractors. Since offshore contractors work with their own device, rather than a company device, large enterprises often require these contractors to develop on VMs. These VMS are secure and often the system PATH cannot be modified by the user. This makes it very difficult for the developers to install necessary dependencies for development. There are workarounds, which I will not outline because they are not at all secure. Contractors are expected to onboard very quickly (and they can offboard very quickly, if they do not).
+I have worked as lead platform engineer on teams with >10 platform engineer contractors. Large enterprises often work with offshore contractors. Since offshore contractors work with their own device, rather than a company device, large enterprises often require these contractors to develop on VMs. These VMs are secure and often the system PATH cannot be modified by the user. This makes it very difficult for the developers to install necessary dependencies for development. There are workarounds, which I will not outline because they are not at all secure. Contractors are expected to onboard very quickly (and they can offboard very quickly, if they do not).
 
 Developing on a secure (isolated Ubuntu image) docker container is not a workaround; it is a permanent fix for this problem. A developer with *any* level of confidence and experience can onboard quickly with a pre-specified VSCode devcontainer.
 
 # Try it Out
 If you have docker & VSCode already installed, then you can try out this repository's image setup at [this link](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/TomBurdge/rapid_onboarding.git).
 
-This example is set up for working on Infrastructure-as-Code repositories with terraform or terragrunt. It also installs [pre-commit hooks](https://pre-commit.com/) to automatically check code quality even before it hits CI.
+This example is set up for working on Infrastructure-as-Code repositories with terraform or terragrunt.
+
+This example also installs [pre-commit hooks](https://pre-commit.com/) to automatically check code quality even before it hits CI.
 
 # Roadmap
 - [X] Add dev container + pre-commit file for a platform engineer's common stack: [terraform](https://github.com/hashicorp/terraform), [terragrunt](https://github.com/gruntwork-io/terragrunt), [pre-commit](https://github.com/pre-commit/pre-commit).
