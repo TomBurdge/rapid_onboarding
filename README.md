@@ -24,6 +24,8 @@ Developing on a secure (isolated Ubuntu image) docker container is not a workaro
 # Try it Out
 If you have docker & VSCode already installed, then you can try out this repository's image setup at [this link](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/TomBurdge/rapid_onboarding.git).
 
+This example is set up for working on Infrastructure-as-Code repositories with terraform or terragrunt.
+
 # Roadmap
 - [X] Add dev container + pre-commit file for a platform engineer's common stack: [terraform](https://github.com/hashicorp/terraform), [terragrunt](https://github.com/gruntwork-io/terragrunt), [pre-commit](https://github.com/pre-commit/pre-commit).
 I will add these, either if there is interest in the features or if it becomes of use to me:
