@@ -3,7 +3,7 @@ Picture this:
 * A junior platform engineer onboards to your team.
 * The engineer is keen, and inexperienced. Enthusiastic to make commits, they clone some repositories and look to start making PRs in their first week. You love their enthusiasm!
 * Almost immediately, the engineer runs into [dependency hell](https://en.wikipedia.org/wiki/Dependency_hell).
-* The company firewall doesn't allow them to install [insert language here] (it's always the same story) and they are having trouble installing tools that the team uses for linting/formatting.
+* The company firewall doesn't allow them to install `insert language here` (it's always the same story) and they are having trouble installing tools that the team uses for linting/formatting.
 * Your junior engineer finishes their first few weeks a little deflated. They have enjoyed meeting the team, but their confidence is knocked by their local machine setup troubles. You know they will succeed, but you will need to allocate your time to getting them setup.
 
 # The Solution
