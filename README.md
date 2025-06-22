@@ -32,6 +32,8 @@ This example also installs [pre-commit hooks](https://pre-commit.com/) to automa
 
 # Roadmap
 - [X] Add dev container + pre-commit file for a platform engineer's common stack: [terraform](https://github.com/hashicorp/terraform), [terragrunt](https://github.com/gruntwork-io/terragrunt), [pre-commit](https://github.com/pre-commit/pre-commit).
+
+
 I will add these, either if there is interest in the features or if it becomes of use to me:
 - [ ] Add dev container + pre-commit file for a python developer's stack: [UV](https://docs.astral.sh/uv/), pre-commit hooks for python.
 - [ ] Add dev container + pre-commit file for a hybrid rust/python project developer's stack: UV, rust, clippy, pre-commit for rust & python.
